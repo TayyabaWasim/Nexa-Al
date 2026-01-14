@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>NexaAI</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        body {
+            background: #000;
+            color: #fff;
+        }
+
+        .search-bar {
+            width: 250px;
+        }
+
+        .service-card:hover {
+            transform: scale(1.03);
+            transition: 0.3s;
+        }
+
+        .section-title {
+            text-align: center;
+            margin: 50px 0 30px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container-fluid">
+
+    <!-- TOP BAR -->
+    <div class="row justify-content-between align-items-center py-2">
+        <div class="col-auto">
+            <span>AI Solutions | Smart Automation for Businesses</span>
+        </div>
+
+        <div class="col text-center">
+            <span>Empowering the Future with Artificial Intelligence</span>
+        </div>
+
+        <div class="col-auto">
+            <a href="#" class="text-white me-3"><i class="fa fa-envelope"></i> Subscribe</a>
+            <a href="#" class="text-white me-2"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="text-white me-2"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="text-white"><i class="fa fa-instagram"></i></a>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <div class="d-flex justify-content-between align-items-center my-3">
+        <input type="text" placeholder="Search AI tools" class="search-bar form-control">
+        <h1>NexaAI</h1>
+        <div>
+            <a href="#" class="fa fa-user text-white me-3"></a>
+            <a href="#" class="fa fa-cogs text-white me-3"></a>
+            <a href="#" class="fa fa-dashboard text-white"></a>
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link text-white me-4" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white me-4" href="#">AI Services</a></li>
+                    <li class="nav-item"><a class="nav-link text-white me-4" href="#">Case Studies</a></li>
+                    <li class="nav-item"><a class="nav-link text-white me-4" href="#">Portfolio</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CAROUSEL -->
+    <div class="w-75 mx-auto mt-4 mb-5">
+        <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://darvideo.tv/wp-content/uploads/artificial-intelligence-8631497_1920-1.jpg"
+                         class="d-block w-100" style="object-fit:cover;height: 400px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Smart AI Automation</h2>
+                        <p>Transform Your Business</p>
+                        <a href="#" class="btn btn-light">Explore AI</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://static.vecteezy.com/system/resources/previews/030/762/925/large_2x/artificial-intelligence-abstract-background-the-future-of-artificial-intelligence-generative-ai-free-photo.jpg"
+                         class="d-block w-100" style="object-fit:cover;height: 400px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Natural Language Processing</h2>
+                        <p>Chatbots & Virtual Assistants</p>
+                        <a href="#" class="btn btn-light">View Solutions</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://img.freepik.com/free-photo/portrait-futuristic-female-humanoid-with-advanced-technology_23-2151666331.jpg?semt=ais_hybrid&w=740&q=80"
+                         class="d-block w-100" style="object-fit:cover;height: 400px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Predictive Analytics</h2>
+                        <p>Data-Driven Decisions</p>
+                        <a href="#" class="btn btn-light">Get Insights</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://media.licdn.com/dms/image/v2/D4E12AQHjL0xZ2yrCfw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1679725750804?e=2147483647&v=beta&t=OQ8DtgVgH_l_XUNnyZhzKbBxSvNpvPI_O_2L8AHqGRk"
+                         class="d-block w-100" style="object-fit:cover;height: 400px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Computer Vision</h2>
+                        <p>Smart Object Recognition</p>
+                        <a href="#" class="btn btn-light">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+
+    <!-- OUR SERVICES TITLE -->
+    <h2 class="section-title">Our Services</h2>
+
+    <!-- MAIN CONTENT -->
+    <div class="row p-4">
+
+        <!-- SIDEBAR -->
+        <div class="col-lg-3">
+
+            <h6>AI Domains</h6>
+            <ul class="nav flex-column mb-4">
+                <li><a class="nav-link text-white" href="#">Machine Learning</a></li>
+                <li><a class="nav-link text-white" href="#">NLP</a></li>
+                <li><a class="nav-link text-white" href="#">Computer Vision</a></li>
+                <li><a class="nav-link text-white" href="#">Robotics</a></li>
+            </ul>
+
+            <h6>Solutions For</h6>
+            <ul class="nav flex-column">
+                <li><a class="nav-link text-white" href="#">Students</a></li>
+                <li><a class="nav-link text-white" href="#">Startups</a></li>
+                <li><a class="nav-link text-white" href="#">Enterprises</a></li>
+            </ul>
+
+        </div>
+
+        <!-- SERVICES / AI TOOLS -->
+        <div class="col-lg-9">
+            <div class="row">
+
+                <!-- 16 AI SERVICES -->
+                <!-- Row 1 -->
+                <div class="col-md-3 mb-4">
+                    <div class="border rounded p-2 h-100 service-card" style="background:#1c1c1c;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS65xrzRYdo8Id9Sr-Qy4gbiI0-yUusnCc4Bw&s" class="img-fluid mb-2" style="height:200px;object-fit:cover;">
+                        <strong>AI Chatbot</strong>
+                        <p class="text-white-50">24/7 Smart Customer Support</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-dark">Get Started</a>
+                            <a href="#" class="btn btn-light">Request Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="border rounded p-2 h-100 service-card" style="background:#1c1c1c;">
+                        <img src="https://www.gep.com/prod/s3fs-public/blog-images/ai-in-analytics-data-driven-approach-to-supply-chain-optimization-1920x1274.jpg" class="img-fluid mb-2" style="height:200px;object-fit:cover;">
+                        <strong>Data Analytics</strong>
+                        <p class="text-white-50">Business Intelligence System</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-dark">Get Started</a>
+                            <a href="#" class="btn btn-light">Request Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="border rounded p-2 h-100 service-card" style="background:#1c1c1c;">
+                        <img src="https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/01/23212247/ai-predictive-analytics.png" class="img-fluid mb-2" style="height:200px;object-fit:cover;">
+                        <strong>AI Vision</strong>
+                        <p class="text-white-50">Face & Object Detection</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-dark">Get Started</a>
+                            <a href="#" class="btn btn-light">Request Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="border rounded p-2 h-100 service-card" style="background:#1c1c1c;">
+                        <img src="https://www.hdatasystems.com/assets/uploads/banner/1639602922.jpg" class="img-fluid mb-2" style="height:200px;object-fit:cover;">
+                        <strong>Predictive Analytics</strong>
+                        <p class="text-white-50">Forecast & Insights</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-dark">Get Started</a>
+                            <a href="#" class="btn btn-light">Request Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="col-md-3 mb-4">
+                    <div class="border rounded p-2 h-100 service-card" style="background:#1c1c1c;">
+                        <img src="https://www.weka.io/wp-content/uploads/files/2021/09/modern-analytic.jpg" class="img-fluid mb-2" style="height:200px;object-fit:cover;">
+                        <strong>Robotics AI</strong>
+                        <p class="text-white-50">Automation & Control</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-dark">Get Started</a>
+                            <a href="#" class="btn btn-light">Request Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="border rounded p-2 h-100 service-card" style="background:#1c1c1c;">
+                        <img src="https://cdn-res.keymedia.com/cdn-cgi/image/w=840,h=504,f=auto/https://cdn-res.keymedia.com/cms/images/us/003/0383_638943942134565286.jpg" class="img-fluid mb-2" style="height:200px;object-fit:cover;">
+                        <strong>AI Security</strong>
+                        <p class="text-white-50">Threat Detection System</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-dark">Get Started</a>
+                            <a href="#" class="btn btn-light">Request Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="border rounded p-2 h-100 service-card" style="background:#1c1c1c;">
+                        <img src="https://studyhub.org.uk/wp-content/uploads/2024/08/v910-aew-047-1-scaled.jpg" class="img-fluid mb-2" style="height:200px;object-fit:cover;">
+                        <strong>AI Marketing</strong>
+                        <p class="text-white-50">Smart Campaign Optimization</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-dark">Get Started</a>
+                            <a href="#" class="btn btn-light">Request Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="border rounded p-2 h-100 service-card" style="background:#1c1c1c;">
+                        <img src="https://cdn.prod.website-files.com/64fef88ee8b22d3d21b715a2/6719f430535a1ade9662d8b0_Open%20Source%20Data_%20Your%20Guide%20to%20the%20Future%20of%20Free%20Data%20Analysis%20and%20Visualization%20.webp" class="img-fluid mb-2" style="height:200px;object-fit:cover;">
+                        <strong>Voice AI</strong>
+                        <p class="text-white-50">Speech Recognition</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-dark">Get Started</a>
+                            <a href="#" class="btn btn-light">Request Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 3 -->
+                <div class="col-md-3 mb-4">
+                    <div class="border rounded p-2 h-100 service-card" style="background:#1c1c1c;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaY0sKJIeuKJizaeRuNfJpZRyvvS_b9Sre1w&s" class="img-fluid mb-2" style="height:200px;object-fit:cover;">
+                        <strong>AI Education</strong>
+                        <p class="text-white-50">Learning & Tutoring System</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-dark">Get Started</a>
+                            <a href="#" class="btn btn-light">Request Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="border rounded p-2 h-100 service-card" style="background:#1c1c1c;">
+                        <img src="https://blogs-images.forbes.com/kalevleetaru/files/2019/03/business-trends-graphs-and-charts-picture-id1129011763.png" class="img-fluid mb-2" style="height:200px;object-fit:cover;">
+                        <strong>AI Finance</strong>
+                        <p class="text-white-50">Investment & Risk Analysis</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-dark">Get Started</a>
+                            <a href="#" class="btn btn-light">Request Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="border rounded p-2 h-100 service-card" style="background:#1c1c1c;">
+                        <img src="https://www.datocms-assets.com/16499/1707000491-screenshot-2024-02-03-234759.png?auto=format&dpr=0.93&w=1738" class="img-fluid mb-2" style="height:200px;object-fit:cover;">
+                        <strong>AI Healthcare</strong>
+                        <p class="text-white-50">Medical Imaging & Diagnostics</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-dark">Get Started</a>
+                            <a href="#" class="btn btn-light">Request Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="border rounded p-2 h-100 service-card" style="background:#1c1c1c;">
+                        <img src="https://4306444.fs1.hubspotusercontent-na1.net/hubfs/4306444/Imported_Blog_Media/The%20impact%20of%20predictive%20analytics.jpg" class="img-fluid mb-2" style="height:200px;object-fit:cover;">
+                        <strong>AI Translation</strong>
+                        <p class="text-white-50">Multilingual Support</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-dark">Get Started</a>
+                            <a href="#" class="btn btn-light">Request Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="bg-secondary text-center p-4">
+        <h4>Why Choose NexaAI?</h4>
+        <p>
+            We help small businesses grow by using affordable AI tools.
+        </p>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="text-center py-3">
+        <p>© 2026 NexaAI | All Rights Reserved</p>
+    </div>
+
+</div>
+</body>
+</html>
